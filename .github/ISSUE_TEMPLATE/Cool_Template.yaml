@@ -14,8 +14,8 @@ name: Cool Template
       label: What happened
       description: Cool or not Cool?
       options:
-        - Cool
-        - Not so Cool
+        - "Cool"
+        - "Not so Cool"
       default: 0
     validations:
       required: true
