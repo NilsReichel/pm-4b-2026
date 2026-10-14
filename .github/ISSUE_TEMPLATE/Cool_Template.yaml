@@ -1,0 +1,20 @@
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Write something Cool!
+      description: How did it happen to you?
+      placeholder: Tell us what Cool thing happened
+      value: "Something Cool happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: What happened
+      description: Cool or not Cool?
+      options:
+        - Cool
+        - Not so Cool
+      default: 0
+    validations:
+      required: true
