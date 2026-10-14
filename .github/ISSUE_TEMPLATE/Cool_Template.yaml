@@ -1,3 +1,4 @@
+name: Cool Template
   - type: textarea
     id: what-happened
     attributes:
